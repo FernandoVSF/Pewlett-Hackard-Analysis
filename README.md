@@ -19,14 +19,14 @@ The analysis of the Pewlett Hackard shows the following:
     2. Most of the retiring employees had achieved senior positions during their career
   
 - Retiring Titles
-![retiring_titles](retiring_titles.png)
+![Retiring_titles](Retiring_titles.png)
   
  -  On employees eligible for the mentorship program:
     1. Most of th elegible employees are currently senior position;
-    2. The numver of elegible employees are not enough to face the impact of the "silver tsunmai"
+    2. The number of elegible employees are not enough to face the impact of the "silver tsunmai"
  
 - Retiring Titles
-![retiring_titles](retiring_titles.png)
+	![mentoring_title](mentoring_title.png)
  
 ## Summary
 
@@ -42,7 +42,7 @@ Based on the results above, we have reached the following conclusions:
   - There are only 1,549 enough qualified, retirement-ready employees in departments to mentor the next generation of Pewlett Hackard employees, which even been picked only within emplyees born in 1965, as shown in the table below:
   - Mentoring Titles
   
-![mentoring_title](mentoring_title.png)
+	![mentoring_title](mentoring_title.png)
 
     - Code:
     
