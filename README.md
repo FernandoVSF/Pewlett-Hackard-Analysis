@@ -26,7 +26,7 @@ The analysis of the Pewlett Hackard shows the following:
     2. The number of elegible employees are not enough to face the impact of the "silver tsunmai"
  
 - Retiring Titles
-	![mentoring_title](mentoring_title.png)
+![mentoring_title](mentoring_title.png)
  
 ## Summary
 
@@ -107,8 +107,4 @@ GROUP BY me.title;
 SELECT COUNT(me.emp_no)
 FROM mentorship_elegibility as me;
 
-    
-
-  
-  
   
