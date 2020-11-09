@@ -37,7 +37,7 @@ Based on the results above, we have reached the following conclusions:
     - Code:
     
       SELECT SUM(rt.count)
-      FROM retiring_titles AS rt;
+      FROM retiring_titles AS rt
 
   - There are only 1,549 enough qualified, retirement-ready employees in departments to mentor the next generation of Pewlett Hackard employees, which even been picked only within emplyees born in 1965, as shown in the table below:
   - Mentoring Titles
@@ -47,11 +47,11 @@ Based on the results above, we have reached the following conclusions:
     - Code:
     
       SELECT COUNT(me.emp_no), me.title
-      FROM mentorship_elegibility as me
-      GROUP BY me.title;
+      FROM mentorship_elegibility AS me
+      GROUP BY me.title
 
       SELECT COUNT(me.emp_no)
-      FROM mentorship_elegibility as me;
+      FROM mentorship_elegibility AS me
     
 
   
