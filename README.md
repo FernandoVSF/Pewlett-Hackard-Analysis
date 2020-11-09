@@ -12,16 +12,21 @@ The objective of this analysis is determine the number of retiring employees per
 - Software: PostgreSQL, pgAdmin, VisualCode
 
 ## Results
-The analysis of the Ride Sharing data show that:
-  - Less urban cities have much lower of rides (by definition), but have even lowr number of drivers, which makes average Fare per Ride and especially Average Fare per driver be signicantly higher, as shown in the table below:
+The analysis of the Pewlett Hackard shows the following:
+
+  - On number of retiring employees by title:
+    1. Most of the retiring employees are engineers;
+    2. Most of the retiring employees had achieved senior positions during their career
   
-- Ride-Sharing Summary
-![Ride-Sharing summary](/analysis/Ride_Sharing_DF.png)
+- Retiring Titles
+![retiring_titles](retiring_titles.png)
   
- -  The total fare in urban cities are signifincatly higher than nom-urbans as shown in the chart below.  But this is mistly explained by higher number of rides, but not as much as total of drivers, as shown in the table above.
+ -  On employees eligible for the mentorship program:
+    1. Most of th elegible employees are currently senior position;
+    2. The numver of elegible employees are not enough to face the impact of the "silver tsunmai"
  
-- Pyber-Fare Summary
-![Pyber_fare_summary](/analysis/PyBer_fare_summary.png) 
+- Retiring Titles
+![retiring_titles](retiring_titles.png)
  
 ## Summary
 
