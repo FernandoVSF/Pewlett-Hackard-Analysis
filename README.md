@@ -30,8 +30,25 @@ The analysis of the Pewlett Hackard shows the following:
  
 ## Summary
 
-Based on the results above, we have the following recommendations:
+Based on the results above, we have reached the following conclusions:
 
-  - Although there are fewer rides on non urban cities, the number of drivers are not enough to support this demand.  Therefore the company should increase the bumber of drivers in those cities, which by consequence, have a higher compensation per ride.
-  - As lower prices per ride ate correlated to higher number of rides, the copany should decrease the price in non-urban areas to increase demand.
-  - By reallocating driver's to non-urban areas, there will be room to increase fares on urban cities, and inprove the break-even.
+  - As the "silver tsunami" begins to make an impact, 90,398 roles need to be filled
+  - Code:
+    SELECT SUM(rt.count)
+    FROM retiring_titles AS rt;
+
+  - There are only 1,549 enough qualified, retirement-ready employees in departments to mentor the next generation of Pewlett Hackard employees, which even been picked only within emplyees born in 1965, as shown in the table below:
+  - Mentoring Titles
+![mentoring_title](mentoring_title.png)
+  - Code:
+    SELECT COUNT(me.emp_no), me.title
+    FROM mentorship_elegibility as me
+    GROUP BY me.title;
+
+    SELECT COUNT(me.emp_no)
+    FROM mentorship_elegibility as me;
+    
+
+  
+  
+  
