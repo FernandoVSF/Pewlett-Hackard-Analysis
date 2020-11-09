@@ -33,10 +33,11 @@ The analysis of the Pewlett Hackard shows the following:
 Based on the results above, we have reached the following conclusions:
 
   - As the "silver tsunami" begins to make an impact, 90,398 roles need to be filled
+    
     - Code:
     
-     SELECT SUM(rt.count)
-     FROM retiring_titles AS rt;
+      SELECT SUM(rt.count)
+      FROM retiring_titles AS rt;
 
   - There are only 1,549 enough qualified, retirement-ready employees in departments to mentor the next generation of Pewlett Hackard employees, which even been picked only within emplyees born in 1965, as shown in the table below:
   - Mentoring Titles
